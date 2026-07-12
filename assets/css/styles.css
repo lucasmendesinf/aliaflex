@@ -658,6 +658,18 @@ a {
     grid-template-columns: 1fr;
   }
 
+  .hero-actions {
+    flex-wrap: nowrap;
+    gap: 0.65rem;
+  }
+
+  .hero-actions .btn {
+    flex: 1 1 0;
+    font-size: 0.95rem;
+    padding-inline: 0.5rem;
+    white-space: nowrap;
+  }
+
   .client-carousel {
     padding-inline: 2.7rem;
   }
