@@ -523,8 +523,15 @@ a {
 .footer {
   background: var(--alia-blue-dark);
   color: rgba(255, 255, 255, 0.84);
-  font-size: 0.95rem;
-  padding: 1.5rem 0;
+  font-size: 1rem;
+  padding: 2rem 0;
+}
+
+.footer-content {
+  align-items: center;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: space-between;
 }
 
 .footer p {
@@ -545,6 +552,10 @@ a {
 .footer a:hover,
 .footer a:focus {
   color: #ffd0a6;
+}
+
+.back-to-top {
+  flex: 0 0 auto;
 }
 
 .whatsapp-float {
@@ -667,6 +678,11 @@ a {
 
   .contact-form {
     padding: 1.25rem;
+  }
+
+  .footer-content {
+    align-items: flex-start;
+    flex-direction: column;
   }
 
   .whatsapp-float {
