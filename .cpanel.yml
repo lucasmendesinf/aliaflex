@@ -1,0 +1,13 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=$HOME/public_html/
+    - /bin/mkdir -p $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp envia.php $DEPLOYPATH
+    - /bin/cp favicon.png $DEPLOYPATH
+    - /bin/cp -R assets $DEPLOYPATH
+    - /bin/rm -f $DEPLOYPATH/assets/img/produtos/BIGimg2.jpg
+    - /bin/rm -f $DEPLOYPATH/assets/img/produtos/BIGimg4.jpg
+    - /bin/rm -rf $DEPLOYPATH/assets/img/impressoras
+    - /bin/rm -f $DEPLOYPATH/assets/img/whatsapp-icon.png
