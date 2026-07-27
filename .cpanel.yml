@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=$HOME/public_html/
+    - export DEPLOYPATH=/home/aliaflex/public_html/
     - /bin/mkdir -p $DEPLOYPATH
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp envia.php $DEPLOYPATH
