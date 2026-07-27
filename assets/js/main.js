@@ -42,7 +42,7 @@ if (productModalElement) {
     productModal.show();
   };
 
-  document.querySelectorAll('.product-card, .equipment-card').forEach((card) => {
+  document.querySelectorAll('.product-card').forEach((card) => {
     card.addEventListener('click', () => openProductModal(card));
     card.addEventListener('keydown', (event) => {
       if (event.key !== 'Enter' && event.key !== ' ') return;
